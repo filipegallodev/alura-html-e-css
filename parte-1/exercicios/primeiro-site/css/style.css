@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+body {
+   text-align: center;
+   background-color: #cccccc;
+}
+
 p {
    font-size: 20px;
 }
 
-body {
-   text-align: center;
+em strong {
+   color: #ff0000;
 }
