@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+#banner {
+   width: 100%;
+}
+
 #missao {
    font-size: 20px;
 }
