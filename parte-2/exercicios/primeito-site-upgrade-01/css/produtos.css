@@ -1,1 +1,35 @@
 @charset "UTF-8";
+
+/* IDs e Classes */
+
+.header-conteudo {
+   position: relative;
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+/* Tags HTML*/
+
+header {
+   background-color: #BBBBBB;
+   padding: 20px 0;
+}
+
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0rem;
+}
+
+nav li {
+   display: inline;
+   margin-left: 1rem;
+}
+
+nav a {
+   color: #000000;
+   font-size: 1.3rem;
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+}
