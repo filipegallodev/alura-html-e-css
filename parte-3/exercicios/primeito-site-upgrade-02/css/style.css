@@ -55,6 +55,17 @@
    margin-top: 10px;
 }
 
+.input-padrao {
+   display: block;
+   margin-bottom: 20px;
+   padding: 10px 25px;
+   width: 50%;
+}
+
+.form-checkbox {
+   margin: 20px 0;
+}
+
 .copyright {
    margin-top: 20px;
 
@@ -102,17 +113,11 @@ form {
    margin: 40px 0
 }
 
-form label {
+form label,
+form p {
    display: block;
    font-size: 1.1rem;
    margin-bottom: 10px;
-}
-
-form input {
-   display: block;
-   margin-bottom: 20px;
-   padding: 10px 25px;
-   width: 50%;
 }
 
 footer {
