@@ -165,3 +165,42 @@ footer {
 
    text-align: center;
 }
+
+/* Estilização da página inicial */
+.banner {
+   width: 100%;
+}
+
+.titulo-principal {
+   margin: 30px;
+
+   text-align: center;
+   font-size: 2rem;
+
+   clear: left;
+}
+
+.principal p {
+   margin-bottom: 15px;
+}
+
+.principal strong {
+   font-weight: bold;
+}
+
+.principal em {
+   font-style: italic;
+}
+
+.utensilios {
+   width: 120px;
+   margin: 0 20px 20px 0;
+
+   float: left;
+}
+
+.imagem-beneficios {
+   width: 60%;
+}
+
+/* FIM da estilização da página inicial */
