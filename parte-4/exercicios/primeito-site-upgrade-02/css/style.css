@@ -131,8 +131,7 @@ nav a:hover {
 }
 
 main {
-   max-width: 940px;
-   margin: 0 auto;
+   background: linear-gradient(#FEFEFE, #888888);
 }
 
 form {
@@ -173,6 +172,7 @@ footer {
 /* Estilização da página inicial */
 .banner {
    width: 100%;
+   margin-bottom: 50px;
 }
 
 .titulo-principal {
@@ -182,6 +182,11 @@ footer {
    font-size: 2rem;
 
    clear: left;
+}
+
+.principal {
+   max-width: 940px;
+   margin: 0 auto;
 }
 
 .principal p {
@@ -204,12 +209,21 @@ footer {
 }
 
 .mapa {
-   padding: 50px 0;
+   padding: 35px 0 50px;
+}
+
+.mapa-conteudo {
+   max-width: 940px;
+   margin: 0 auto;
 }
 
 .mapa p {
    margin-bottom: 30px;
    text-align: center;
+}
+
+.beneficios {
+   padding: 20px 50px 50px;
 }
 
 .conteudo-beneficios {
@@ -229,6 +243,10 @@ footer {
 
 .itens-beneficios:first-child {
    font-weight: bold;
+}
+
+.itens-beneficios::before {
+   content: "🟊";
 }
 
 .imagem-beneficios {
