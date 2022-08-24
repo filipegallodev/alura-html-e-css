@@ -275,7 +275,8 @@ footer {
       padding: 0 15px;
    }
 
-   .lista-beneficios, .imagem-beneficios {
+   .lista-beneficios,
+   .imagem-beneficios {
       width: 100%;
    }
 
@@ -284,7 +285,7 @@ footer {
    }
 
    .utensilios {
-      padding-left:15px;
+      padding-left: 15px;
    }
 
    h1 {
@@ -295,7 +296,39 @@ footer {
       position: static;
    }
 
-   p, .mapa {
+   p,
+   .mapa {
       padding: 0 15px;
+   }
+
+   /* pagina produtos */
+
+   .produtos {
+      width: 100%;
+   }
+
+   .produtos li {
+      display: inline;
+      border: 0;
+   }
+
+   .produtos img {
+      width: 50%;
+   }
+
+   /* pagina contato */
+   body {
+      text-align: center;
+   }
+
+   main {
+      padding-bottom: 30px;
+   }
+
+   input,
+   textarea,
+   table,
+   legend {
+      margin: 0 auto;
    }
 }
